@@ -80,7 +80,7 @@
 
                 [self.navigationItem setTitle:nil];
                 NSLog(@"A problem occured %@", [error description]);	                                 
-            };	
+            };
                     
             // Enumerate Albums
             [self.library enumerateGroupsWithTypes:ALAssetsGroupAll
